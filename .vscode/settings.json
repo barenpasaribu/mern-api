@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 11,
+    "editor.fontWeight": "bold",
+    "workbench.iconTheme":"vscode-great-icons",
+    "editor.lineHeight": 20
+}

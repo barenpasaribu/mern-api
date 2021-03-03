@@ -1,0 +1,19 @@
+{
+    "presets":["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        [
+            "module-resolver",
+            {
+                "root":["./src"],
+                "alias": {
+                    "v1": "./src/routers/v1",
+                    "controllers": "./src/controllers",
+                    "models": "./src/models",
+                    "services": "./src/services",
+                    "utils": "./src/utils"
+                }
+            }
+        ]
+    ]
+}
